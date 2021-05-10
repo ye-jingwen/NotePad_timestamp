@@ -30,4 +30,5 @@ This is an AndroidStudio rebuild of google SDK sample NotePad
         SimpleDateFormat format = new SimpleDateFormat("yyyy.MM.dd HH:mm:ss");
         String dateTime = format.format(date);
         values.put(NotePad.Notes.COLUMN_NAME_MODIFICATION_DATE, dateTime);
-        
+## 4.运行截图
+![image](https://github.com/ye-jingwen/NotePad_timestamp/blob/master/NotePad_timestamp.png)
