@@ -1,7 +1,7 @@
 # NotePad_timestamp
 This is an AndroidStudio rebuild of google SDK sample NotePad
  
-## 1.在layout包下的noteslist_item中添加显示时间的TextView：
+## <font color=Blue>1.在layout包下的noteslist_item中添加显示时间的TextView：</font>
         <TextView
                 android:id="@+id/times"
                 android:layout_width="match_parent"
