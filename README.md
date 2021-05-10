@@ -31,4 +31,4 @@ This is an AndroidStudio rebuild of google SDK sample NotePad
         String dateTime = format.format(date);
         values.put(NotePad.Notes.COLUMN_NAME_MODIFICATION_DATE, dateTime);
 ## 4.运行截图
-![github](https://github.com/ye-jingwen/NotePad_timestamp/blob/master/NotePad_timestamp.png "github")
+![github](https://github.com/ye-jingwen/NotePad_timestamp/blob/master/NotePad_timestamp.png )
