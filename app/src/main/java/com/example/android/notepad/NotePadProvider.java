@@ -514,6 +514,7 @@ public class NotePadProvider extends ContentProvider implements PipeDataWriter<C
         SimpleDateFormat format = new SimpleDateFormat("yyyy.MM.dd HH:mm:ss");
         String dateTime = format.format(date);
         values.put(NotePad.Notes.COLUMN_NAME_MODIFICATION_DATE, dateTime);
+
         // If the incoming values map is not null, uses it for the new values.
         if (initialValues != null) {
             values = new ContentValues(initialValues);
