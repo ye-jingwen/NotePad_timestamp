@@ -33,7 +33,7 @@ This is an AndroidStudio rebuild of google SDK sample NotePad
         String dateTime = format.format(date);
         values.put(NotePad.Notes.COLUMN_NAME_MODIFICATION_DATE, dateTime);
 ![github](https://github.com/ye-jingwen/NotePad_timestamp/blob/master/Image/NoteEditor.png "github")
-## 4.在java文件中的NotePadProvider中insert函数中添加与NoteEditor中相同的获取时间的功能
+## 4.在java文件中的NotePadProvider中insert函数中添加与NoteEditor相同的获取时间的功能
         ContentValues values = new ContentValues();
         
         //修改时间
